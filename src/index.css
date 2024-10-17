@@ -1,0 +1,20 @@
+.imageIcon {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.dropdown-and-search-container {
+  display: flex; /* Align elements in a row */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Center elements vertically */
+  gap: 15px; /* Add space between items */
+}
+
+.search-bar-container {
+  flex: 1; /* Allows the search bar to take up the remaining space */
+  max-width: 800px; /* You can adjust this value to control the maximum size */
+}
+
+.search-bar-container .input-group {
+  width: 100%; /* Ensures the input group takes up the full width of the container */
+}
